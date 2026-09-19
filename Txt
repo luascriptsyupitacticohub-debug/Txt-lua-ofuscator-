@@ -1,0 +1,72 @@
+--[[
+Yupitactico Lua Obfuscator | luaofuscatoryupitactico.com
+0100101010010101010010110}00}0}001010100101101001001011010279282^29^@92^191&102^92^92296201&101&2^290101*@;9@?@;#&@1("@1:@&"@"&@:@&"@@%@"@,@%@&#:#:@:@#:#;#@:#&"#&@"#&:'kdhksjsk1010010100101010010101010010100101100101011001010011001001010100101010001010100101010100101010010101010010110}00}0}001010100101101001001011010279282^29^@92^191&102^92^92296201&101&2^290101@;9@?@;#&@1("@1:@&"@"&@:@&"@@%@"@,@%@&#:#:@:@#:#;#@:#&"#&@"#&:'kdhksjsk1010010100101010010101010010100101100101011001010011001001010100101010001010100101010100101010010101010010110}00}0}001010100101101001001011010279282^29^@92^191&102^92^92296201&101&2^290101@;9@?@;#&@1("@1:@&"@"&@:@&"@@%@"@,@%@&#:#:@:@#:#;#@:#&"#&@"#&:'kdhksjsk1010010100101010010101010010100101100101011001010011001001010100101010001010100101010100101010010101010010110}00}0}001010100101101001001011010279282^29^@92^191&102^92^92296201&101&2^290101@;9@?@;#&@1("@1:@&"@"&@:@&"@@%@"@,@%@&#:#:@:@#:#;#@:#&"#&@"#&:'kdhksjsk1010010100101010010101010010100101100101011001010011001001010100101010001010100101010100101010010101010010110}00}0}001010100101101001001011010279282^29^@92^191&102^92^92296201&101&2^290101@;9@?@;#&@1("@1:@&"@"&@:@&"@@%@"@,@%@&#:#:@:@#:#;#*@:#&"#&@"#&:'kdhksjsk101001010010101001010101001010010110010101100101001100100101010010101000101010010101
+]]
+
+local a = (loadstring or require)("\108\111\97\100\115\116\114\105\110\103") 
+local b = a or function(c) return c end
+local o = b([[
+local _G = _G; local game = game; local task = task; local Instance = Instance; local Enum = Enum; local UDim2 = UDim2; local Color3 = Color3; local CFrame = CFrame; local pairs = pairs; 101010101@#$%₩¥€£
+if _G["\97"] then for _, v in pairs(_G["\97"]) do v:Disconnect() end _G["\97"] = nil end 101010101@#$%₩¥€£
+repeat task.wait() until game["\80\108\97\121\101\114\115"]["\76\111\99\97\108\80\108\97\121\101\114"] 101010101@#$%₩¥€£
+local LocalPlayer = game["\80\108\97\121\101\114\115"]["\76\111\99\97\108\80\108\97\121\101\114"] 101010101@#$%₩¥€£
+local u4, Humanoid, HumanoidRootPart, u7 = nil, nil, nil, false 101010101@#$%₩¥€£
+local t1 = {} 101010101@#$%₩¥€£
+local function u9() 101010101@#$%₩¥€£
+u4 = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait() 101010101@#$%₩¥€£
+Humanoid = u4:WaitForChild("\72\117\109\97\110\111\105\100") 101010101@#$%₩¥€£
+HumanoidRootPart = u4:WaitForChild("\72\117\109\97\110\111\105\100\82\111\111\116\80\97\114\116") 101010101@#$%₩¥€£
+t1 = {} 101010101@#$%₩¥€£
+for _, d in pairs(u4:GetDescendants()) do if d:IsA("\66\97\115\101\80\97\114\116") and d.Transparency == 0 then t1[#t1 + 1] = d end end 101010101@#$%₩¥€£
+end 101010101@#$%₩¥€£
+local function u10() 101010101@#$%₩¥€£
+local ScreenGui = Instance.new("\83\99\114\101\101\110\71\117\105") 101010101@#$%₩¥€£
+local TextButton = Instance.new("\84\101\120\116\66\117\116\116\111\110") 101010101@#$%₩¥€£
+TextButton.Size = UDim2.new(0, 100, 0, 50) 101010101@#$%₩¥€£
+TextButton.Position = UDim2.new(0.5, -50, 0.1, 0) 101010101@#$%₩¥€£
+TextButton.Text = "\73\110\118\105\115\105\98\108\101" 101010101@#$%₩¥€£
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0) 101010101@#$%₩¥€£
+TextButton.Parent = ScreenGui 101010101@#$%₩¥€£
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("\80\108\97\121\101\114\71\117\105") 101010101@#$%₩¥€£
+local u19 = false 101010101@#$%₩¥€£
+local iP, TBP = nil, nil 101010101@#$%₩¥€£
+TextButton.InputBegan:Connect(function(i) 101010101@#$%₩¥€£
+if i.UserInputType == Enum.UserInputType.MouseButton1 then u19 = true; iP = i.Position; TBP = TextButton.Position end 101010101@#$%₩¥€£
+end) 101010101@#$%₩¥€£
+TextButton.InputChanged:Connect(function(i) 101010101@#$%₩¥€£
+if i.UserInputType == Enum.UserInputType.MouseMovement and u19 then 101010101@#$%₩¥€£
+local v = i.Position - iP 101010101@#$%₩¥€£
+TextButton.Position = UDim2.new(TBP.X.Scale, TBP.X.Offset + v.X, TBP.Y.Scale, TBP.Y.Offset + v.Y) 101010101@#$%₩¥€£
+end end) 101010101@#$%₩¥€£
+TextButton.InputEnded:Connect(function(i) 101010101@#$%₩¥€£
+if i.UserInputType == Enum.UserInputType.MouseButton1 then u19 = false end 101010101@#$%₩¥€£
+end) 101010101@#$%₩¥€£
+TextButton.MouseButton1Click:Connect(function() 101010101@#$%₩¥€£
+u7 = not u7 101010101@#$%₩¥€£
+for _, v in pairs(t1) do v.Transparency = v.Transparency == 0 and 0.5 or 0 end 101010101@#$%₩¥€£
+end) 101010101@#$%₩¥€£
+end 101010101@#$%₩¥€£
+u9() 101010101@#$%₩¥€£
+u10() 101010101@#$%₩¥€£
+local t2 = { 101010101@#$%₩¥€£
+nil, nil, 101010101@#$%₩¥€£
+[1] = LocalPlayer:GetMouse().KeyDown:Connect(function(p1) 101010101@#$%₩¥€£
+if p1 == "\103" then u7 = not u7 101010101@#$%₩¥€£
+for _, v in pairs(t1) do v.Transparency = v.Transparency == 0 and 0.5 or 0 end end end), 101010101@#$%₩¥€£
+[2] = game:GetService("\82\117\110\83\101\114\118\105\99\101").Heartbeat:Connect(function() 101010101@#$%₩¥€£
+if u7 then 101010101@#$%₩¥€£
+local HRCF = HumanoidRootPart.CFrame 101010101@#$%₩¥€£
+local CO = Humanoid.CameraOffset 101010101@#$%₩¥€£
+local v24 = HRCF * CFrame.new(0, -200000, 0) 101010101@#$%₩¥€£
+local Position = v24:ToObjectSpace(CFrame.new(HRCF.Position)).Position 101010101@#$%₩¥€£
+HumanoidRootPart.CFrame = v24 101010101@#$%₩¥€£
+Humanoid.CameraOffset = Position 101010101@#$%₩¥€£
+game:GetService("\82\117\110\83\101\114\118\105\99\101").RenderStepped:Wait() 101010101@#$%₩¥€£
+HumanoidRootPart.CFrame = HRCF 101010101@#$%₩¥€£
+Humanoid.CameraOffset = CO 101010101@#$%₩¥€£
+end end) 101010101@#$%₩¥€£
+} 101010101@#$%₩¥€£
+LocalPlayer.CharacterAdded:Connect(function() u7 = false; u9(); u10() end) 101010101@#$%₩¥€£
+_G["\97"] = t2 101010101@#$%₩¥€£
+]])
+if type(o) == "function" then o() else error(o) end
